@@ -1,0 +1,51 @@
+.oyun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #5e1742;
+}
+
+.oyun-ekran {
+  display: flex;
+  flex-direction: column;
+}
+.pano-sıra {
+  display: flex;
+  justify-content: center;
+}
+.kare {
+  /* color: red; */
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: #eba3cb;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5e1742;
+}
+.oyun-detay {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #eba3cb;
+}
+.baslik {
+  color: #eba3cb;
+}
+.buton {
+  margin-top: 50px;
+  width: 150px;
+  height: 35px;
+  background-color: #eba3cb;
+  font-weight: bold;
+  color: #5e1742;
+  font-size: larger;
+}
